@@ -107,6 +107,9 @@ use ruma_common::{
 };
 use tracing::{info_span, Instrument};
 
+#[doc(no_inline)]
+pub use http;
+
 #[cfg(feature = "client-api")]
 mod client;
 mod error;
